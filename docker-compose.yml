@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  covermaker:
+    build: .
+    container_name: covermaker
+    ports:
+      - "8090:80"
+    restart: always
