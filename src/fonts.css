@@ -1,0 +1,12 @@
+/* 通过可用的 Web 字体源加载部分字体 */
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+/* 对应的示例 class（可选）：若需在非 fabric 环境校验可用性 */
+.lxgw { font-family: 'LXGW WenKai', sans-serif; }
+.noto-sans-sc { font-family: 'Noto Sans SC', sans-serif; }
+.noto-serif-sc { font-family: 'Noto Serif SC', serif; }
+.zcool-kuaile { font-family: 'ZCOOL KuaiLe', cursive; }
+
+/* 其它字体（如 Douyin Sans、Huiwen-mincho、Maple Mono CN Medium、hongleixingshu）可能需要本地安装或自行引入 CDN */
